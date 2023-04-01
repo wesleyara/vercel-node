@@ -10,4 +10,10 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/api/v1/home", (req, res) => {
+  res.json({
+    message: "Hello dsasasdas!",
+  })
+})
+
 export default router;
